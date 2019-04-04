@@ -1,0 +1,7 @@
+{
+    "extends": "@medpass/eslint-config/react",
+    "plugins": ["prettier"],
+    "rules": {
+        "prettier/prettier": "error"
+    }
+}

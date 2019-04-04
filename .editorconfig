@@ -1,0 +1,4 @@
+root = true
+[{*.js,*,json}]
+indent_size = tab
+indent_style = tab

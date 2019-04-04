@@ -1,28 +1,20 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react"
+import Container from "./components/templates/Container"
+
+const Box = () => <div style={{ height: "50px", backgroundColor: "red" }} />
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
+	render() {
+		return (
+			<Container>
+				<div className="row">
+					<div className="col-md-7">
+						<Box />
+					</div>
+				</div>
+			</Container>
+		)
+	}
 }
 
-export default App;
+export default App
