@@ -1,17 +1,23 @@
 import React, { Component } from "react"
-import Container from "./components/templates/Container"
+import { Container, Row, Col } from "./lib"
 
 const Box = () => <div style={{ height: "50px", backgroundColor: "red" }} />
 
 class App extends Component {
 	render() {
 		return (
-			<Container>
-				<div className="row">
-					<div className="col-md-7">
+			<Container mt={2}>
+				<Row>
+					<Col>
 						<Box />
-					</div>
-				</div>
+					</Col>
+					<Col>
+						<Box />
+					</Col>
+					<Col>
+						<Box />
+					</Col>
+				</Row>
 			</Container>
 		)
 	}
