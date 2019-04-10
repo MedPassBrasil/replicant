@@ -12,7 +12,7 @@ custom:
 ### Upload do Site para o S3   
   s3Sync:
     - bucketName: medpass-${self:custom.SiteName}-${self:provider.stage}
-      localDir: build
+      localDir: storybook-static
 
 plugins:
   - serverless-s3-sync
