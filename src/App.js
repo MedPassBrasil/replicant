@@ -1,5 +1,5 @@
 import React, { Component } from "react"
-import { Container, Row, Col } from "./lib"
+import { Container, Row, Col } from "./components"
 
 const Box = () => <div style={{ height: "50px", backgroundColor: "red" }} />
 

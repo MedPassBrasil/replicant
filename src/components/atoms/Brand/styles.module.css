@@ -1,0 +1,6 @@
+.root {
+    height: 50px;
+    /* adjust to center logo*/
+    position: relative;
+    right: 5px;
+}
