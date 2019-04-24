@@ -30,6 +30,6 @@ This library use atomic design concepts to categorize its components.
 
 ### References
 
-* [Atomic Design]([https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [Atomic Design](https://github.com/danilowoz/react-atomic-design)
 
 
