@@ -6,12 +6,12 @@ import outlineLogo from "./assets/logo-medpass-outline.png"
 import defaultLogo from "./assets/logo-medpass.svg"
 
 const Brand = props => {
-	const { variant, component: Component } = props
+	const { variant, component: Component, ...rest } = props
 
 	const logo = variant === "outline" ? outlineLogo : defaultLogo
 
 	return Component ? (
-		<Component>
+		<Component {...rest}>
 			<img src={logo} alt={"Medpass"} className={styles.root} />
 		</Component>
 	) : (
