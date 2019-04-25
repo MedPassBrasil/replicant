@@ -1,5 +1,6 @@
 {
 	"name": "@medpass/replicant",
+	"description": "Medpass React UI Components",
 	"version": "0.5.2",
 	"main": "dist/index.js",
 	"module": "dist/index.js",
@@ -10,6 +11,11 @@
 		"react",
 		"ui"
 	],
+	"homepage": "https://github.com/MedPassBrasil/replicant",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/MedPassBrasil/replicant"
+	},
 	"scripts": {
 		"start": "react-scripts start",
 		"demo-build": "react-scripts build",
