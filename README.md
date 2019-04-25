@@ -10,7 +10,7 @@ npm i @medpass/replicant # or yarn add @medpass/replicant
 
 Replicant is a React implement of Medpass's styleguide Chidori 
 
-[Learn more]([https://medpassbrasil.github.io/chidori/](https://medpassbrasil.github.io/chidori/)
+[Learn more](https://medpassbrasil.github.io/chidori/)
 
 ### Atomic Design
 
@@ -37,4 +37,4 @@ This project is licensed under the terms of the [MIT license](/LICENSE).
 ### References
 
 * [Atomic Design](https://github.com/danilowoz/react-atomic-design)
-* [Chidori]([https://github.com/MedPassBrasil/chidori](https://github.com/MedPassBrasil/chidori)
+* [Chidori](https://github.com/MedPassBrasil/chidori)
