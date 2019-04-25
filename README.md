@@ -1,16 +1,22 @@
 # Replicant
 
-### Instalation
-
-...
-
-### Development Getting Started
-
-Run development server: 
+### Installation
 
 ```bash
-yarn start # or npm start
+npm i @medpass/replicant # or yarn add @medpass/replicant
 ```
+
+### Chidori
+
+Replicant is a React implement of Medpass's styleguide Chidori 
+
+[Learn more]([https://medpassbrasil.github.io/chidori/](https://medpassbrasil.github.io/chidori/)
+
+### Atomic Design
+
+This library use atomic design concepts to categorize its components.
+
+### Development Build Comands
 
 Build component library:
 
@@ -24,12 +30,11 @@ Build storybook statics
 yarn build-storybook # or npm run build-storybook
 ```
 
-### Atomic Design
+### License
 
-This library use atomic design concepts to categorize its components.
+This project is licensed under the terms of the [MIT license](/LICENSE).
 
 ### References
 
 * [Atomic Design](https://github.com/danilowoz/react-atomic-design)
-
-
+* [Chidori]([https://github.com/MedPassBrasil/chidori](https://github.com/MedPassBrasil/chidori)

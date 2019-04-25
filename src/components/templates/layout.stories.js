@@ -2,9 +2,9 @@ import React from "react"
 
 import { storiesOf } from "@storybook/react"
 
-import Container from "../components/templates/Container"
-import Col from "../components/templates/Col"
-import Row from "../components/templates/Row"
+import Container from "./Container"
+import Col from "./Col"
+import Row from "./Row"
 const Box = () => <div style={{ height: "100px", margin: "10px", backgroundColor: "#4EC8CC" }} />
 
 const Example12Col = () => (
