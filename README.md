@@ -28,10 +28,9 @@ yarn build-storybook # or npm run build-storybook
 
 This library use atomic design concepts to categorize its components.
 
-### References
-
-* [Atomic Design](https://github.com/danilowoz/react-atomic-design)
-
 ### License
 This project is licensed under the terms of the [MIT license](/LICENSE).
 
+### References
+
+* [Atomic Design](https://github.com/danilowoz/react-atomic-design)

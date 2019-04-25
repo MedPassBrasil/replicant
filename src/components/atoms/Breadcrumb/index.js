@@ -1,5 +1,5 @@
 import React from "react"
-import PropTypes from "prop-types"
+import * as PropTypes from "prop-types"
 
 const Breadcrumb = ({ content }) => (
 	<div className="breadcrumb">

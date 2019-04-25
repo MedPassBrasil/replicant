@@ -1,9 +1,11 @@
 {
-	"name": "replicant",
+	"name": "@medpass/replicant",
 	"version": "0.1.0",
 	"main": "dist/index.js",
 	"module": "dist/index.js",
-	"private": false,
+	"author": "Higor Rozan",
+	"license": "MIT",
+	"keywords": ["medpass", "react", "ui"],
 	"dependencies": {
 		"@babel/cli": "^7.4.3",
 		"@babel/core": "^7.4.3",
