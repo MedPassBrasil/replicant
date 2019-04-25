@@ -1,6 +1,5 @@
 import React from "react"
 import * as PropTypes from "prop-types"
-import "bootstrap/dist/css/bootstrap-grid.css"
 
 const Container = props => {
 	const { children, mt } = props

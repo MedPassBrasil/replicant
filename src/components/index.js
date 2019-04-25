@@ -1,3 +1,6 @@
+import "bootstrap/dist/css/bootstrap-grid.css"
+import "@medpass/chidori/build/css/chidori.css"
+
 export { default as Subtitle } from "./atoms/Subtitle"
 export { default as Title } from "./atoms/Title"
 export { default as Badge } from "./atoms/Badge"

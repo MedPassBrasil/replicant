@@ -1109,6 +1109,11 @@
     prop-types "^15.6.0"
     react-is "^16.6.3"
 
+"@medpass/chidori@^1.1.22":
+  version "1.1.22"
+  resolved "https://registry.yarnpkg.com/@medpass/chidori/-/chidori-1.1.22.tgz#34917501a7987b5acad8f031fc90f58c3bca1020"
+  integrity sha512-CMiGYEf8S8XxVcKI89BCi9eF4RAjGK9uQ/Yw/QN/d6WtLEhdJxj09VFbMzZe9AvUKyN1Rkn/jaHBg6+2wqke1w==
+
 "@medpass/eslint-config@^0.0.7":
   version "0.0.7"
   resolved "https://registry.yarnpkg.com/@medpass/eslint-config/-/eslint-config-0.0.7.tgz#8995d4a2f5aad3d63de856a948cbe53e1d41cec1"
