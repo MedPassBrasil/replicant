@@ -1,7 +1,7 @@
 import React from "react"
 import * as PropTypes from "prop-types"
-import Title from "components/atoms/Title"
-import Description from "components/atoms/Description"
+import Title from "../../atoms/Title"
+import Description from "../../atoms/Description"
 
 const TextBox = props => {
 	const { title, children } = props
