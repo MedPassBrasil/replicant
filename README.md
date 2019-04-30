@@ -24,12 +24,12 @@ This library use atomic design concepts to categorize its components.
 ### Development Build Comands
 Build component library:
 ```bash
-yarn build # or npm run build
+npm run build # or yarn build
 ```
 
 Build storybook statics
 ```bash
-yarn build-storybook # or npm run build-storybook
+npm run build-storybook # or yarn build-storybook
 ```
 
 ### License
