@@ -1,9 +1,8 @@
 {
 	"name": "@medpass/replicant",
 	"description": "Medpass React UI Components",
-	"version": "0.5.2",
-	"main": "dist/index.js",
-	"module": "dist/index.js",
+	"version": "0.5.6",
+	"main": "core",
 	"author": "Higor Rozan",
 	"license": "MIT",
 	"keywords": [
@@ -23,7 +22,8 @@
 		"eject": "react-scripts eject",
 		"storybook": "start-storybook -p 9009 -s public",
 		"build-storybook": "build-storybook -s public",
-		"build": "NODE_ENV=production babel src/components --out-dir dist --copy-files"
+		"build": "NODE_ENV=production babel src/components --out-dir core --copy-files",
+		"publish-patch": "bash ./scripts/publish-patch.sh"
 	},
 	"dependencies": {
 		"@material-ui/core": "^3.9.3",
