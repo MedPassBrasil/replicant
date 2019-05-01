@@ -23,7 +23,7 @@
 		"storybook": "node_modules/.bin/start-storybook -p 9009 -s public",
 		"build-storybook": "node_modules/.bin/build-storybook -s public",
 		"build": "NODE_ENV=production babel src/components --out-dir core --copy-files",
-		"publish-path": "bash ./scripts/publish-patch.sh"
+		"publish-patch": "bash ./scripts/publish-patch.sh"
 	},
 	"dependencies": {
 		"@material-ui/core": "^3.9.3",
