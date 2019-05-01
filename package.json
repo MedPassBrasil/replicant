@@ -2,8 +2,7 @@
 	"name": "@medpass/replicant",
 	"description": "Medpass React UI Components",
 	"version": "0.5.4",
-	"main": "dist/index.js",
-	"module": "dist/index.js",
+	"main": "core",
 	"author": "Higor Rozan",
 	"license": "MIT",
 	"keywords": [
