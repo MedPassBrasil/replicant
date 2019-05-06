@@ -3,8 +3,8 @@ import className from "classnames"
 import * as PropTypes from "prop-types"
 
 const Col = props => {
-	const { children, size, ...rest } = props
-	const colStyles = className({ col: !size }, { [`col-md-${size}`]: size })
+	const { children, size, md, ...rest } = props
+	const colStyles = className({ col: !size }, { [`col-md-${size}`]: size, "col-md": md })
 	return (
 		<div className={colStyles} {...rest}>
 			{children}
@@ -13,8 +13,9 @@ const Col = props => {
 }
 
 Col.propTypes = {
-	size: PropTypes.oneOf([2, 3, 4, 6, 8]),
-	children: PropTypes.node
+	size: PropTypes.oneOf([1, 2, 3, 4, 6, 8, 10, 12]),
+	children: PropTypes.node,
+	md: PropTypes.bool
 }
 
 export default Col
