@@ -1,7 +1,7 @@
 {
 	"name": "@medpass/replicant",
 	"description": "Medpass React UI Components",
-	"version": "0.5.6",
+	"version": "0.5.7",
 	"main": "core",
 	"author": "Higor Rozan",
 	"license": "MIT",
