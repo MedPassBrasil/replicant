@@ -1,7 +1,7 @@
 import React from "react"
 import * as PropTypes from "prop-types"
 import InputAdornment from "@material-ui/core/InputAdornment"
-import IconButton from "../../atoms/Button/IconButton"
+import IconButton from "../../atoms/IconButton"
 import SearchIcon from "@material-ui/icons/Search"
 import FormControl from "@material-ui/core/FormControl"
 import Input from "@material-ui/core/Input"

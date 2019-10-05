@@ -1,9 +1,9 @@
 import { configure, addParameters } from "@storybook/react"
-import {themes} from "@storybook/theming"
+import { themes } from "@storybook/theming"
 
-addParameters({ options: { name:"Replicant", showPanel: false, theme: themes.dark } })
+addParameters({ options: { name: "Replicant" } })
 
-const req = require.context("../src/", true, /\.stories\.js$/)
+const req = require.context("../src/components", true, /\.stories\.js$/)
 function loadStories() {
 	req.keys().forEach(filename => req(filename))
 }

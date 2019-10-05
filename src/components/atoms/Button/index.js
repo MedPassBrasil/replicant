@@ -1,24 +1,35 @@
-/* eslint-disable function-paren-newline */
 import React from "react"
 import * as PropTypes from "prop-types"
-import classes from "./index.module.scss"
+import styles from "./styles.module.scss"
 import classNames from "classnames"
 
+const PRIMARY = "primary"
+const SECONDARY = "secondary"
+const OUTLINE = "outline"
+
 const Button = props => {
-	const { variant } = props
-	const styles = classNames("btn", classes.button, {
-		primary: variant === "primary",
-		secundary: variant === "secondary"
+	const { variant, isLoading, ...rest } = props
+	const classes = classNames(styles.button, {
+		[styles.secondary]: variant === SECONDARY,
+		[styles.outline]: variant === OUTLINE
 	})
-	return <button className={styles} {...props} />
+
+	return (
+		<button className={classes} {...rest}>
+			{!isLoading ? props.children : <div className={styles.loading} />}
+		</button>
+	)
 }
 
 Button.propTypes = {
-	variant: PropTypes.oneOf(["primary", "secondary"])
+	variant: PropTypes.oneOf([PRIMARY, SECONDARY, OUTLINE]),
+	children: PropTypes.node.isRequired,
+	isLoading: PropTypes.bool
 }
 
 Button.defaultProps = {
-	variant: "primary"
+	variant: PRIMARY,
+	isLoading: false
 }
 
 export default Button

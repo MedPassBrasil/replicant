@@ -50,6 +50,7 @@
 		"prettier": "^1.16.4",
 		"react-dom": "^16.8.6",
 		"react-scripts": "^3.0.1",
+		"react-test-renderer": "^16.10.2",
 		"serverless-s3-sync": "^1.7.3"
 	},
 	"eslintConfig": {
